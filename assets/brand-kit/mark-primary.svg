@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Argon Primary Mark">
+  <title>Argon Primary Mark</title>
+  <rect width="128" height="128" rx="20" fill="#1E1E1E"/>
+  <g fill="#FBF8F4">
+    <path d="M16 106 56.4 27.5A8.55 8.55 0 0 1 71.6 27.5L112 106H97L64 41.5 31 106Z"/>
+    <path d="M50.5 78H77.5L82 87H46Z"/>
+  </g>
+</svg>

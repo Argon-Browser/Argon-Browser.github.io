@@ -1,0 +1,534 @@
+{
+  "schemaVersion": 1,
+  "name": "Argon Extension Bridge compatibility benchmark",
+  "description": "The 50-extension suite named in the implementation plan. It records candidates for testing, not results.",
+  "provenance": {
+    "listingSource": "Mozilla Add-ons (AMO) public search API",
+    "endpoint": "https://addons.mozilla.org/api/v5/addons/search/",
+    "selectionMethod": "Candidates were drawn from live AMO search results sorted by user count, assigned to a category by their stated purpose, and every listing URL was verified with an HTTP request.",
+    "verifiedOn": "2026-11-06",
+    "packagesDownloaded": 0
+  },
+  "target": {
+    "betaSuccessRate": 0.8,
+    "status": "UNVERIFIED",
+    "testedCount": 0,
+    "statement": "The 80% figure is an engineering target from the implementation plan, not a measured compatibility rate. No extension in this suite has been installed, parsed, or run."
+  },
+  "statusValues": [
+    "NOT_TESTED",
+    "COMPATIBLE",
+    "PARTIALLY_COMPATIBLE",
+    "INCOMPATIBLE"
+  ],
+  "categories": [
+    "content_blockers",
+    "translators",
+    "password_managers",
+    "developer_tools",
+    "productivity",
+    "appearance"
+  ],
+  "extensions": [
+    {
+      "id": "ublock-origin",
+      "name": "uBlock Origin",
+      "category": "content_blockers",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "adblock-plus",
+      "name": "Adblock Plus",
+      "category": "content_blockers",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "adguard-adblocker",
+      "name": "AdGuard AdBlocker",
+      "category": "content_blockers",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/adguard-adblocker/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "adblock-for-firefox",
+      "name": "AdBlock for Firefox",
+      "category": "content_blockers",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/adblock-for-firefox/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "adblocker-ultimate",
+      "name": "AdBlocker Ultimate",
+      "category": "content_blockers",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/adblocker-ultimate/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "ghostery",
+      "name": "Ghostery – Privacy Ad Blocker",
+      "category": "content_blockers",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/ghostery/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "sponsorblock",
+      "name": "SponsorBlock",
+      "category": "content_blockers",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "adblock-for-youtube",
+      "name": "AdBlocker for YouTube",
+      "category": "content_blockers",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/adblock-for-youtube/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "to-google-translate",
+      "name": "To Google Translate",
+      "category": "translators",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/to-google-translate/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "traduzir-paginas-web",
+      "name": "TWP - Translate Web Pages",
+      "category": "translators",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "simple-translate",
+      "name": "Simple Translate",
+      "category": "translators",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "deepl-translate",
+      "name": "DeepL Translator",
+      "category": "translators",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/deepl-translate/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "google-translator-for-firefox",
+      "name": "Google Translator for Firefox",
+      "category": "translators",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/google-translator-for-firefox/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "immersive-translate",
+      "name": "Immersive Translate",
+      "category": "translators",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/immersive-translate/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "imtranslator",
+      "name": "ImTranslator",
+      "category": "translators",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/imtranslator/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "edge_translate",
+      "name": "Edge Translate",
+      "category": "translators",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/edge_translate/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "bitwarden-password-manager",
+      "name": "Bitwarden Password Manager",
+      "category": "password_managers",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "lastpass-password-manager",
+      "name": "LastPass Password Manager",
+      "category": "password_managers",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "1password-x-password-manager",
+      "name": "1Password: Password Manager",
+      "category": "password_managers",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/1password-x-password-manager/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "proton-pass",
+      "name": "Proton Pass",
+      "category": "password_managers",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/proton-pass/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "keepassxc-browser",
+      "name": "KeePassXC-Browser",
+      "category": "password_managers",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "norton-password-manager",
+      "name": "Norton Password Manager",
+      "category": "password_managers",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/norton-password-manager/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "nordpass-password-management",
+      "name": "NordPass Password Manager",
+      "category": "password_managers",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/nordpass-password-management/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "dashlane",
+      "name": "Dashlane Password Manager",
+      "category": "password_managers",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/dashlane/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "keeper-password-manager",
+      "name": "Keeper Password Manager",
+      "category": "password_managers",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/keeper-password-manager/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "react-devtools",
+      "name": "React Developer Tools",
+      "category": "developer_tools",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/react-devtools/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "web-developer",
+      "name": "Web Developer",
+      "category": "developer_tools",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/web-developer/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "jsonview",
+      "name": "JSONView",
+      "category": "developer_tools",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/jsonview/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "json-lite",
+      "name": "JSON Lite",
+      "category": "developer_tools",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/json-lite/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "cookie-editor",
+      "name": "Cookie-Editor",
+      "category": "developer_tools",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "styl-us",
+      "name": "Stylus",
+      "category": "developer_tools",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/styl-us/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "header-editor",
+      "name": "Header Editor",
+      "category": "developer_tools",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/header-editor/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "axe-devtools",
+      "name": "axe DevTools - Web Accessibility Testing",
+      "category": "developer_tools",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "user-agent-string-switcher",
+      "name": "User-Agent Switcher and Manager",
+      "category": "developer_tools",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "save-page-we",
+      "name": "Save Page WE",
+      "category": "developer_tools",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/save-page-we/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "multi-account-containers",
+      "name": "Firefox Multi-Account Containers",
+      "category": "productivity",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "tab-session-manager",
+      "name": "Tab Session Manager",
+      "category": "productivity",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/tab-session-manager/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "cookie-autodelete",
+      "name": "Cookie AutoDelete",
+      "category": "productivity",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "tree-style-tab",
+      "name": "Tree Style Tab",
+      "category": "productivity",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "onetab",
+      "name": "OneTab",
+      "category": "productivity",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/onetab/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "simple-tab-groups",
+      "name": "Simple Tab Groups",
+      "category": "productivity",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/simple-tab-groups/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "sidebery",
+      "name": "Sidebery",
+      "category": "productivity",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/sidebery/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "raindropio",
+      "name": "Raindrop.io",
+      "category": "productivity",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/raindropio/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "feedbroreader",
+      "name": "Feedbro",
+      "category": "productivity",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/feedbroreader/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "darkreader",
+      "name": "Dark Reader",
+      "category": "appearance",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/darkreader/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "adaptive-tab-bar-colour",
+      "name": "Adaptive Tab Bar Color",
+      "category": "appearance",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/adaptive-tab-bar-colour/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "docsafterdark",
+      "name": "DocsAfterDark",
+      "category": "appearance",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/docsafterdark/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "turn-off-the-lights",
+      "name": "Turn Off the Lights",
+      "category": "appearance",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/turn-off-the-lights/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "new-tab-override",
+      "name": "New Tab Override",
+      "category": "appearance",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    },
+    {
+      "id": "bonjourr-startpage",
+      "name": "Bonjourr Minimalist New Tab",
+      "category": "appearance",
+      "listingUrl": "https://addons.mozilla.org/en-US/firefox/addon/bonjourr-startpage/",
+      "status": "NOT_TESTED",
+      "manifestVersion": null,
+      "observedManifestVersionSource": null,
+      "notes": ""
+    }
+  ]
+}

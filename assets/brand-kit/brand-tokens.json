@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "brand": {
+    "name": "Argon",
+    "fullName": "Argon Browser",
+    "vendor": "Argon",
+    "bundleId": "org.argon.browser"
+  },
+  "mark": {
+    "gridUnits": 128,
+    "cornerRadius": 20,
+    "cornerRadiusRatio": 0.15625,
+    "apexCircle": { "cx": 64.0, "cy": 31.4, "r": 8.55, "topY": 22.85 },
+    "innerVertex": { "x": 64.0, "y": 41.5 },
+    "baselineY": 106.0,
+    "leftFootX": [16.0, 31.0],
+    "rightFootX": [97.0, 112.0],
+    "crossbar": {
+      "topY": 78.0,
+      "bottomY": 87.0,
+      "topX": [50.5, 77.5],
+      "bottomX": [46.0, 82.0],
+      "detachedGapUnits": 6.5
+    }
+  },
+  "colors": {
+    "brandCore": {
+      "obsidian": {
+        "hex": "#1E1E1E",
+        "rgb": [30, 30, 30],
+        "role": "Primary mark container & dark brand surface"
+      },
+      "ivory": {
+        "hex": "#FBF8F4",
+        "rgb": [251, 248, 244],
+        "role": "Primary mark glyph & warm light brand surface"
+      }
+    },
+    "accent": {
+      "primary": "#6478F5",
+      "strong": "#4C62D6",
+      "soft": "rgba(100, 120, 245, 0.16)"
+    },
+    "chromeDark": {
+      "bg": "#15171B",
+      "surface": "#23262D",
+      "surfaceRaised": "#2B2F37",
+      "surfaceActive": "#343945",
+      "border": "#2F333C",
+      "text": "#F7F8FA",
+      "textSecondary": "#A6ADBD"
+    },
+    "chromeLight": {
+      "bg": "#F7F8FA",
+      "surface": "#FFFFFF",
+      "surfaceRaised": "#FFFFFF",
+      "surfaceActive": "#E9ECF5",
+      "border": "#DDE1E7",
+      "text": "#15171B",
+      "textSecondary": "#5A6070"
+    }
+  },
+  "typography": {
+    "fontFamily": "Inter, system-ui, 'Segoe UI', Ubuntu, Cantarell, sans-serif",
+    "wordmarkWeight": 600,
+    "uiSizePx": 13
+  }
+}
